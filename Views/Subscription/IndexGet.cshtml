@@ -1,0 +1,16 @@
+@{
+    ViewData["Title"] = "Subscription Form";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Please Submit Something</h1>
+    <form method="post">
+        <label for="clientName">Client Name:</label><br>
+        <input type="text" id="clientName" name="clientName"><br>
+        <label for="numberOfUsers">Number of Users:</label><br>
+        <input type="text" id="numberOfUsers" name="numberOfUsers"><br><br>
+        <input type="checkbox" id="specialOffer" name="specialOffer" value="true">
+        <label for="specialOffer">Special Offer</label><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>

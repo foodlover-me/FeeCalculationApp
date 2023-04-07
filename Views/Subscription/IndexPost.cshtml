@@ -1,0 +1,9 @@
+﻿@model FeeCalculationApp.Models.Subscription
+@{
+    ViewData["Title"] = "Subscription Details";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Dear @Model.ClientName</h1>
+    <p>Your subscription will cost @($"{Model.Fee:C}")</p>
+</div>
